@@ -58,10 +58,6 @@ address {
     float: left;;
     width: calc(100%/3);
     padding: 0.5rem;
-
-
-    background-color: aqua;
-    border: 1px dashed red;
 }
 
 
@@ -73,8 +69,6 @@ address {
     line-height: var(--header-height);
     height: var(--header-height);
     margin-bottom: 1.5rem;
-    
-    background-color: aqua;
 }
 
 
