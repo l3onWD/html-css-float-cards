@@ -57,6 +57,7 @@ address {
 .col {
     float: left;;
     width: calc(100%/3);
+    padding: 0.5rem;
 
 
     background-color: aqua;
