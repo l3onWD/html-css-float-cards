@@ -1,6 +1,7 @@
 /* Variables */
 :root {
-
+    --color-text: #e53170;
+    --color-link: #399ada;
 }
 
 
@@ -12,7 +13,7 @@
 
 /* Generics */
 body {
-    font-family: fredoka, 'sans-serif';
+    font-family: 'Fredoka', sans-serif;
 }
 
 
