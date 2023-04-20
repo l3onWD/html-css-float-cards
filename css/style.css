@@ -21,6 +21,15 @@ h1 {
     color: var(--color-text);
 }
 
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
 
 /* Utils */
 .container {
@@ -50,7 +59,6 @@ h1 {
     width: calc(100%/3);
 
 
-    height: 100px;
     background-color: aqua;
     border: 1px dashed red;
 }
@@ -68,4 +76,25 @@ h1 {
     background-color: aqua;
 }
 
+
 /* Team grid */
+.team-grid {
+    margin-top: 2.5rem;
+}
+
+
+/* Card */
+.card {
+    color: #fff;
+    background-color: #000;
+}
+
+.card img {
+    height: 80px;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.card-body {
+    padding: 0.5rem 0.8rem;
+}
