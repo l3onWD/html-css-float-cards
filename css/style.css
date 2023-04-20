@@ -28,11 +28,32 @@ h1 {
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .text-center {
     text-align: center;
 }
 
 /* Layout */
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;;
+    width: calc(100%/3);
+
+
+    height: 100px;
+    background-color: aqua;
+    border: 1px dashed red;
+}
 
 
 /*==================================*/
