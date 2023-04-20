@@ -7,6 +7,8 @@
     --margin-lg: 2.5rem;
 
     --header-height: 120px;
+
+    --layout-gap: 0.5rem;
 }
 
 
@@ -58,6 +60,11 @@ address {
 
 
 /* Layout */
+.row {
+    margin-left: calc(var(--layout-gap) * -1);
+    margin-right:  calc(var(--layout-gap) * -1);
+}
+
 .row::after {
     content: '';
     display: table;
@@ -67,7 +74,7 @@ address {
 .col {
     float: left;
     width: calc(100%/3);
-    padding: 0.5rem;
+    padding: var(--layout-gap);
 }
 
 
