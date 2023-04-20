@@ -18,7 +18,10 @@ body {
 
 
 /* Utils */
-
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
 
 /* Layout */
 
