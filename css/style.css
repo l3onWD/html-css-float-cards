@@ -28,6 +28,10 @@ h1 {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Layout */
 
 
@@ -35,8 +39,15 @@ h1 {
 
 /* Header */
 #main-header {
-    height: var(--header-height);
-    background-color: aqua;
     text-align: center;
     line-height: var(--header-height);
+    height: var(--header-height);
+    margin-bottom: 1.5rem;
+    
+    background-color: aqua;
+}
+
+/* Team info */
+.team-info {
+    
 }
