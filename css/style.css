@@ -2,7 +2,11 @@
 :root {
     --color-text: #e53170;
     --color-link: #399ada;
-    --header-height: 100px;
+    
+    --margin-sm: 0.5rem;
+    --margin-lg: 2.5rem;
+
+    --header-height: 120px;
 }
 
 
@@ -11,6 +15,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 
 /* Generics */
 body {
@@ -24,6 +29,10 @@ h1 {
 a {
     color: var(--color-link);
     text-decoration: none;
+}
+
+p {
+    margin-bottom: var(--margin-lg);
 }
 
 address {
@@ -47,6 +56,7 @@ address {
     text-align: center;
 }
 
+
 /* Layout */
 .row::after {
     content: '';
@@ -55,7 +65,7 @@ address {
 }
 
 .col {
-    float: left;;
+    float: left;
     width: calc(100%/3);
     padding: 0.5rem;
 }
@@ -65,16 +75,8 @@ address {
 
 /* Header */
 #main-header {
-    text-align: center;
     line-height: var(--header-height);
     height: var(--header-height);
-    margin-bottom: 1.5rem;
-}
-
-
-/* Team grid */
-.team-grid {
-    margin-top: 2.5rem;
 }
 
 
@@ -87,7 +89,7 @@ address {
 .card img {
     height: 80px;
     float: left;
-    margin-right: 0.5rem;
+    margin-right: var(--margin-sm);
 }
 
 .card-body {
